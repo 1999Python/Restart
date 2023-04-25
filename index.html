@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+   
+   
+    <style>
+        body {
+
+            background-image: url("back.jpg");
+            background-color: #cccccc;
+            background-size: cover;
+            margin: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+  
+
+    <h1 id="head" onmouseover="changeBackground()" onmouseout="backRRT">Pizza Time</h1>
+  
+    <div class="sidenav">
+        <ul class="sidenav">
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#location">LOCATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#bill">BILL</a></li>
+        </ul>
+    </div>
+
+    <section class="piz">
+
+        <div class="sub1">
+            <h3 class="subs">FOUR CHEESE GRILLER</h3>
+
+            <div class="subsect1">
+                <img src="small.png" alt="small" class="smallPz" width="70%">
+<br>
+                <p class="prices">R99</p>
+                <br>
+                <p class="para">Danish feta, mature cheddar, parmesan and mozzarella with braised onion marmalade</p>
+            </div>
+        </div>
+
+
+        <div class="sub2">
+
+            <h3 class="subs">CHICKEN EL ROMERO</h3>
+            
+            <div class="subsect2">
+                <img src="medium.png" alt="medium" class="mediumPz" width="40%">
+                <br>
+                <p class="prices">R120</p>
+                <br>
+                <p class="para">Garlic butter sauce with mozzarella cheese.
+                    Slivers of beef pastrami, pineapple and avocado</p>
+            </div>
+        </div>
+
+        <div class="sub3">
+
+            <h3 class="subs">FOUR SEASONS</h3>
+            
+            <div class="subsect3">
+                
+                <img src="large.jpeg" alt="largePz" width="50%">
+               <br>
+               <p class="prices">R179</p>
+                <br>
+                <p class="para">Freshly grilled deboned lamb chops on order, coriander and piquante peppers.
+                    Freshly grilled beef fillet on order.Please allow 30 min.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div>
+            <h3 class="Location">Location</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423808.888882432!2d18.375878628452835!3d-33.915220844199254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town!5e0!3m2!1sen!2sza!4v1681209698489!5m2!1sen!2sza"
+                width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="map">
+            </iframe>
+
+
+
+        </div>
+
+        <div>
+
+            <h3 class="form_h">Contact us</h3>
+            <div class="form">
+                <form width="300px">
+                    <input type="text" class="form-control form-control-lg" placeholder="Name & Surname" size="20">
+                    <input type="email" class="form-control mt-3" placeholder="Email" size="20">
+                    <input type="text" class="form-control mt-3" placeholder="Subject" size="20">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Details"
+                            size="40"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Send</button>
+
+            </div>
+            <p class="order1">Order Now On ! 011 797 6411</p>
+
+            <div class="stickyicon-list">
+                <a href="#facebook" class="facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#twitter" class="twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#instagram" class="instagram">
+                    <i class="fa fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <section class="textbill">
+
+                <div>
+                    <h3 class="h">Bill Total</h3>
+
+                    <div class="">
+                    </div>
+                    <div class="">
+                        <i>Small pizza costs R99</i>
+                        <i>Medium pizza costs R120</i>
+                        <i>Large pizza costs R179</i>
+                    </div>
+
+                    <div class="">
+                        <i>If the total cost exceed R500.00 show the total cost in orange, if over R1000.00 show it in
+                            red.</i>
+                    </div>
+                    <hr>
+                    <div class="billyText">
+                        <div class="billy">
+
+                            <label for="">Bill type</label>
+                            <input type="text" name="" value="" placeholder="Small/Medium/Large" class="billTypeText">
+                            <button class="button-primary addToBillBtn" type="button" name="button">Add</button>
+                        </div>
+                        <div class="sum">
+                            <h5>Totals</h5>
+                            <table>
+                                <tr>
+                                    <td>Small pizza</td>
+                                    <td>R<span class="SmallTotalOne">0</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Medium pizza</td>
+                                    <td>R<span class="MediumTotalOne">0</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Large pizza</td>
+                                    <td>R<span class="LargeTotalOne">0</span></td>
+                                </tr>
+
+                                <tr>
+                              
+                                <tr>
+                                    <td>Total</td>
+                                    <td class="">R<span class="totalOne">0</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    </section>
+    <script src="pizza.js"></script>
+</body>
+
+
+
+<footer>&#169 Raadiyah Arend Copyright 2023</footer>
+
+</html>
