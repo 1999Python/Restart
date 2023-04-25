@@ -1,5 +1,5 @@
 h1 {
-    font-size: 4em;
+    
     text-align: center;
     color: aliceblue;
     border: 2px solid rgb(215, 237, 17);
@@ -8,17 +8,8 @@ h1 {
     margin: 1em;
 }
 
-.menu{
-    width: 620px;
-    height: 60px;
-    margin-left: 32em;
-    margin-bottom: 5em;
-}
-ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
+
+
 
 ul {
     list-style-type: none;
@@ -48,21 +39,21 @@ ul {
 
 .h {
     color: white;
-    -webkit-text-stroke: 2px rgb(208, 98, 94);
+    
 }
 
 h3 {
-    font-size: 2.5em;
+ 
     color: antiquewhite;
 }
 
 p {
-    font-size: 1.8em;
+  
     color: beige;
 }
 
 footer {
-    font-size: 1.2em;
+  
     color: beige;
     text-align: center;
 }
@@ -80,13 +71,6 @@ footer {
 
 }
 
-.Location {
-    margin-left: 0.7em;
-}
-
-.map {
-    margin-left: 2em;
-}
 
 .facebook {
     background: #3b5998;
@@ -126,66 +110,117 @@ footer {
 
 
 @media (max-width : 760px) {
+   
+.smallPz{
+    width: 50%;
+    
+}
 
-    .order{
-        
-        margin-left: 1em;
+.mediumPz{
+    width: 50%;  
+}
+
+.largePz{
+    width: 50%;
+    
+}
+    .stickyicon-list a:hover {
+        color: #000;
+        width: 10px;
+        height: 30px;
+        width: 30px;
+        font-size: 40px;
     }
 
+.form{
+    margin-left: 4.4em;
+}
+
+    .form_h {
+        margin-left: 7em;
+    }
+
+    .location {
+        margin-left: 7em;
+    }
+
+    .h{
+color: whitesmoke;
+
+    }
+    .twitter {
+        background: #3b5998;
+        color: white;
+        height: 30px;
+        width: 30px;
+        font-size: 30px;
+        margin-left: 2em;
+    }
+    .facebook {
+        background: #3b5998;
+        color: white;
+        height: 30px;
+        width: 30px;
+        font-size: 30px;
+        margin-left: 2em;
+    }
+    .instagram{
+        background: #3b5998;
+        color: white;
+        height: 30px;
+        width: 30px;
+        font-size: 30px;
+        margin-left: 2em;
+    }
+    .order1{
+        margin-left: 4.3em;
+    }
     .Location {
-        margin-left: 0.7em;
         width: 50px;
         height: 50px;
     }
 
     .map {
         position: relative;
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
+        margin-left: 4.1em;
     }
 
     .textbill {
         color: rgb(62, 59, 54);
         background-color: rgb(156, 201, 201);
         border: #3376e9 solid;
-        font-size: larger;
-        margin: 2em;
-        padding: 2em;
+        font-size: medium;
+        margin: 1.5em;
+        padding: 1.5em;
 
     }
     .subs{
-        font-size: 1.3em;
+        font-size: medium;
     }
     .prices{
-        font-size: 0.9em;
+        font-size: medium;
     }
     .para{
-        font-size: 1em;
+        font-size: medium;
     }
     .piz{
         display:grid;
+        text-align: center;
     }
 
     ul.sidenav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 25%;
         background-color: #f1f1f1;
-        position: fixed;
-        height: 100%;
-        overflow: auto;
       }
       
       ul.sidenav li a {
-        display: block;
         color: #000;
-        padding: 8px 16px;
         text-decoration: none;
       }
        
       ul.sidenav li a.active {
-        background-color: #af6a4c;
+        background-color: #e3864d;
         color: white;
       }
       
@@ -206,6 +241,10 @@ footer {
     ul.sidenav li a {
       text-align: center;
       float: none;
+      width: 40px;
+      height: 10px;
+      font-size: 0.7em;
+      padding: 0.2em;
     }
 }
     @media screen and (max-width: 900px) {
@@ -214,6 +253,8 @@ footer {
           height: auto;
           position: relative;
         }
+
+     
         
         ul.sidenav li a {
           float: left;
@@ -225,6 +266,11 @@ footer {
 
 
 @media (min-width : 960px) {
+    
+    .Location {
+        margin-left: 0.7em;
+    }
+
     .piz {
         display: flex;
         padding: 2em;
@@ -247,8 +293,7 @@ footer {
 
     .subsect1 {
         
-        font-size: 0.9em;
-        font-family: 'Courier New', Courier, monospace;
+        
         margin: 2em;
         padding: 2em;
        
@@ -261,12 +306,10 @@ footer {
         margin: 2em;
         padding: 2em;
         font-size: 0.9em;
-        font-family: 'Courier New', Courier, monospace;
     }
 
     .subsect3 {
         font-size: 0.9em;
-        font-family: 'Courier New', Courier, monospace;
         margin: 2em;
         padding: 2em;
     }
@@ -285,21 +328,14 @@ footer {
         font-size: larger;
         color: rgb(238, 236, 236);
         margin-left: 2em;
+       
     }
 
     
-    .order1{
-        margin-right: 3em;
-    }
+    
 }
 
-.box {
-    padding: 0.75em;
-    border-radius: 0.5em;
-    border: 1px solid #ddd;
-    height: auto;
-    margin-bottom: 1em;
-}
+
 
 .warning {
     color: rgb(234, 255, 0);

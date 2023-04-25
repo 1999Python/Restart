@@ -21,7 +21,9 @@ function textBillTotal() {
     if((SmallTotal + MediumTotal + LargeTotal) >=1000) {
         totalCostElem.innerHTML = totalCost.toFixed(2);
         return 
+      
     }
+   
 
     if (billTypeEntered.toLowerCase() === "small") {
         SmallTotal += 99;
@@ -49,7 +51,9 @@ function textBillTotal() {
      if (totalCost > 1000) {
         totalCostElem.classList.add("danger");
     }
-
+    // if((SmallTotal + MediumTotal + LargeTotal) >=1000)) {
+    //     textBillTotal(){alert("jdvnhbvh")} ;
+    // }
     
 
 }
