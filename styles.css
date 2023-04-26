@@ -110,6 +110,12 @@ footer {
 
 
 @media (max-width : 760px) {
+
+    #myBtn {
+       
+        width: 10px;
+        height: 5px;
+    }
    
 .smallPz{
     width: 50%;
@@ -184,7 +190,7 @@ color: whitesmoke;
         position: relative;
         height: 250px;
         width: 250px;
-        margin-left: 4.1em;
+        margin-left: 3em;
     }
 
     .textbill {
@@ -208,6 +214,7 @@ color: whitesmoke;
     .piz{
         display:grid;
         text-align: center;
+        font-size: xx-small;
     }
 
     ul.sidenav {
@@ -241,9 +248,9 @@ color: whitesmoke;
     ul.sidenav li a {
       text-align: center;
       float: none;
-      width: 40px;
+      width: 30px;
       height: 10px;
-      font-size: 0.7em;
+      font-size: 0.55em;
       padding: 0.2em;
     }
 }
