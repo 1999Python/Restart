@@ -20,6 +20,8 @@ function textBillTotal() {
 
     if((SmallTotal + MediumTotal + LargeTotal) >=1000) {
         totalCostElem.innerHTML = totalCost.toFixed(2);
+    window.alert("sometext");
+
         return 
       
     }
@@ -43,17 +45,15 @@ function textBillTotal() {
     LargeTotalElem.innerHTML = LargeTotal.toFixed(2);
     totalCostElem.innerHTML = totalCost.toFixed(2);
 
-    
 
     if (totalCost > 500) {
         totalCostElem.classList.add("warning");
     }
      if (totalCost > 1000) {
         totalCostElem.classList.add("danger");
+        alert("You Have Reached your Max For the Day!")
     }
-    // if((SmallTotal + MediumTotal + LargeTotal) >=1000)) {
-    //     textBillTotal(){alert("jdvnhbvh")} ;
-    // }
+  
     
 
 }
@@ -64,7 +64,6 @@ myButton1.addEventListener("click",textBillTotal);
 
 let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -77,6 +76,6 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
 }
